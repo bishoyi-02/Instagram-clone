@@ -1,0 +1,27 @@
+.imageupload{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+   
+    
+}
+
+.uploadContainer{
+    width: 100%;
+    background-color:#fafafa;
+    position:fixed; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color:#fafafa;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.imageupload__progress{
+    width:100%;
+}
